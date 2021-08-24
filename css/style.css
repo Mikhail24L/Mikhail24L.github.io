@@ -76,6 +76,7 @@ transition: 1s; /* Время, за которое линия возвращае
 transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
 }
 
+
  h3{
    position: relative !important;
   margin-left: 80px;
