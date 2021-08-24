@@ -1,0 +1,179 @@
+html{
+  margin: 100px;
+  }
+
+
+body {
+  background: rgb(223, 232, 241);
+  border-color: border 3px solid black;
+  
+  
+}
+
+.cv {
+  background: rgb(220, 220, 230);
+  border-color: border 3px solid black;
+  }
+
+
+
+#pic{
+  position: relative;
+  left:35px;
+  top:25px;
+    }
+
+    h1 {
+  margin-left: 35px;
+  margin-top: 30px;
+  text-decoration: underline;
+    }
+
+h2 {
+  margin-left: 35px;
+  margin-top: 2px;
+  text-decoration: underline;
+}
+    .contacts {
+      margin-left: 35px;
+  margin-top: 10px;
+    }
+
+.description {
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif; 
+  font-size: 100%; 
+  font-weight: light
+}
+.description:before {
+  content: '';
+  display: block;
+  height: 1px; /* Высота линии */
+  background: #394252; /* Цвет линии */
+  width: 800px; /* Ширина линии до наведения */
+  margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.description:hover:before {
+  width: 1000px; /* Ширина линии при наведении */
+transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+.description:after {
+  content: '';
+  display: block;
+  height: 1px; /* Высота линии */
+  background: #394252; /* Цвет линии */
+  width: 800px; /* Ширина линии до наведения */
+  margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.description:hover:after {
+  width: 1000px; /* Ширина линии при наведении */
+transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+
+ h3{
+   position: relative !important;
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family:Verdana, sans-serif;
+} 
+
+
+.experience_date_1 {
+  text-decoration: underline;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.experience_1 {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal;
+transition: 1s linear; /* Время изменения */
+}
+.experience_1:hover {
+    color: rgb(0, 0, 0); /* Цвет текста */
+    background: #d7dcfb; /* Цвет фона */
+}
+
+
+
+
+.experience_date_2 {
+  margin-top: 30px;
+  text-decoration-line: underline;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+.experience_2 {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal;
+transition: 1s linear; /* Время изменения */
+}
+.experience_2:hover {
+    color: rgb(0, 0, 0); /* Цвет текста */
+    background: #d7dcfb; /* Цвет фона */
+}
+
+.experience_date_3{
+  margin-top: 30px;
+  text-decoration: underline;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+
+.experience_3 {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal;
+transition: 1s linear; /* Время изменения */
+}
+.experience_3:hover {
+    color: rgb(0, 0, 0); /* Цвет текста */
+    background: #d7dcfb; /* Цвет фона */
+}
+
+
+.soft_skills {
+   margin-left: 80px;
+ margin-top: 50px;
+ margin-bottom: 30px;
+ font-weight: bold;
+ font-size: 150%;
+ } 
+
+ .SF_details {
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 80px;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif; 
+  font-size: 100%; 
+  font-weight: normal;
+ }
+
+ .skills{
+   margin-left: -20px;
+   font-size: 120%; 
+   font-weight: bold;
+   margin-top: 50px;
+ margin-bottom: 30px;
+ }
